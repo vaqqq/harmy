@@ -44,6 +44,19 @@ Example response:
 }
 ```
 
+## K/V
+
+### What is a K/V system?
+The Key/Value system allows users to store and retriev their own data associated with their user profiles. Example: You could use it for storing user preferences, settings, or any other custom data relevant to the user's profile, like the user's location or email.
+
+### How can I create a key/value pair?
+The only thing you have to do is to run the `.add <key> <value>` command of our Discord bot for creating a new key/value pair.
+
+### How do I get my API token?
+Run the `.token` command in our Discord server. You will receive a DM from our Discord bot, including the API Token.
+
+*Note: If you think that your token has been compromised, you can simply just re-run the command for resetting your API token.*
+
 # Spotlight [![harmy](https://harmy.gg/APISVG.svg)](https://harmy.gg/)
 Here are a few websites that use harmy:
 
