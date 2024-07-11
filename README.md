@@ -52,10 +52,15 @@ The Key/Value system allows users to store and retriev their own data associated
 ### How can I create a key/value pair?
 The only thing you have to do is to run the `.add <key> <value>` command of our Discord bot for creating a new key/value pair.
 
+## Authentification
+
 ### How do I get my API token?
 Run the `.token` command in our Discord server. You will receive a DM from our Discord bot, including the API Token.
 
 *Note: If you think that your token has been compromised, you can simply just re-run the command for resetting your API token.*
+
+### Hashed Tokens
+Your API tokens are hashed using a secure hashing algorithm. This means even in the unlikely event of a data breach, your tokens cannot be easily read or misused. - Your data is safe.
 
 # Spotlight [![harmy](https://harmy.gg/APISVG.svg)](https://harmy.gg/)
 Here are a few websites that use harmy:
