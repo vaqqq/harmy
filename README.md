@@ -9,6 +9,9 @@ We also give you the possibility to store your own K/V (key/value), which you ca
 ## Get started with 1 click
 Join our [Discord server](https://discord.gg/asyWxPudkQ) and you are good to go and able to request your Discord user data. Simple is that.
 
+## Table of Contents
+
+
 ## Docs
 Get a user’s Discord presence data.
 
@@ -51,6 +54,9 @@ The Key/Value system allows users to store and retriev their own data associated
 
 ### How can I create a key/value pair?
 The only thing you have to do is to run the `.add <key> <value>` command of our Discord bot for creating a new key/value pair.
+
+### How do I access through the API?
+Use your API token as an authentification method to access your custom data.
 
 ## Authentification
 
