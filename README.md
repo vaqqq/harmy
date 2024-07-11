@@ -13,10 +13,10 @@ Join our [Discord server](https://discord.gg/asyWxPudkQ) and you are good to go 
 - [API Docs](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#api-docs)
     - [K/V](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#kv)
         - [What is a K/V system?](https://github.com/vaqqq/harmy/edit/main/README.md#what-is-a-kv-system)
-        - [How do I create a K/V pair?](https://github.com/vaqqq/harmy/edit/main/README.md#how-can-i-create-a-keyvalue-pair)
-        - [How can I access them through the api?](https://github.com/vaqqq/harmy/edit/main/README.md#how-do-i-access-through-the-api)
-- [Authorization](https://github.com/vaqqq/harmy/edit/main/README.md#authentification)
-    - [Hot to get your API Token](https://github.com/vaqqq/harmy/edit/main/README.md#how-do-i-get-my-api-token)
+        - [Create a K/V pair](https://github.com/vaqqq/harmy/edit/main/README.md#create-a-keyvalue-pair)
+        - [Access through the API](https://github.com/vaqqq/harmy/edit/main/README.md#access-through-the-api)
+- [Authorization](https://github.com/vaqqq/harmy/edit/main/README.md#authorization)
+    - [Get the API Token](https://github.com/vaqqq/harmy/edit/main/README.md#get-the-api-token)
     - [Hashed Tokens](https://github.com/vaqqq/harmy/edit/main/README.md#hashed-tokens)
 - [Spotlight](https://github.com/vaqqq/harmy/edit/main/README.md#spotlight-)
 
@@ -60,15 +60,15 @@ Example response:
 ### What is a K/V system?
 The Key/Value system allows users to store and retriev their own data associated with their user profiles. Example: You could use it for storing user preferences, settings, or any other custom data relevant to the user's profile, like the user's location or email.
 
-### How can I create a key/value pair?
+### Create a key/value pair
 The only thing you have to do is to run the `.add <key> <value>` command of our Discord bot for creating a new key/value pair.
 
-### How do I access through the API?
+### Access through the API
 Use your API token as an authentification method to access your custom data.
 
 ## Authorization
 
-### How do I get my API token?
+### Get the API token
 Run the `.token` command in our Discord server. You will receive a DM from our Discord bot, including the API Token.
 
 *Note: If you think that your token has been compromised, you can simply just re-run the command for resetting your API token.*
