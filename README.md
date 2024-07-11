@@ -12,13 +12,13 @@ Join our [Discord server](https://discord.gg/asyWxPudkQ) and you are good to go 
 ## Table of Contents
 - [API Docs](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#api-docs)
     - [K/V](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#kv)
-        - [What is a K/V system?](https://github.com/vaqqq/harmy/edit/main/README.md#what-is-a-kv-system)
-        - [Create a K/V pair](https://github.com/vaqqq/harmy/edit/main/README.md#create-a-keyvalue-pair)
-        - [Access through the API](https://github.com/vaqqq/harmy/edit/main/README.md#access-through-the-api)
-- [Authorization](https://github.com/vaqqq/harmy/edit/main/README.md#authorization)
-    - [Get the API Token](https://github.com/vaqqq/harmy/edit/main/README.md#get-the-api-token)
-    - [Hashed Tokens](https://github.com/vaqqq/harmy/edit/main/README.md#hashed-tokens)
-- [Spotlight](https://github.com/vaqqq/harmy/edit/main/README.md#spotlight-)
+        - [What is a K/V system?](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#what-is-a-kv-system)
+        - [Create a K/V pair](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#create-a-keyvalue-pair)
+        - [Access through the API](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#access-through-the-api)
+- [Authorization](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#authorization)
+    - [Get the API Token](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#get-the-api-token)
+    - [Hashed Tokens](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#hashed-tokens)
+- [Spotlight](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#spotlight-)
 
 ## API Docs
 Get a user’s Discord presence data.
