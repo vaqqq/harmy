@@ -10,9 +10,17 @@ We also give you the possibility to store your own K/V (key/value), which you ca
 Join our [Discord server](https://discord.gg/asyWxPudkQ) and you are good to go and able to request your Discord user data. Simple is that.
 
 ## Table of Contents
+- [API Docs](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#api-docs)
+    - [K/V](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#kv)
+        - [What is a K/V system?](https://github.com/vaqqq/harmy/edit/main/README.md#what-is-a-kv-system)
+        - [How do I create a K/V pair?](https://github.com/vaqqq/harmy/edit/main/README.md#how-can-i-create-a-keyvalue-pair)
+        - [How can I access them through the api?](https://github.com/vaqqq/harmy/edit/main/README.md#how-do-i-access-through-the-api)
+- [Authorization](https://github.com/vaqqq/harmy/edit/main/README.md#authentification)
+    - [Hot to get your API Token](https://github.com/vaqqq/harmy/edit/main/README.md#how-do-i-get-my-api-token)
+    - [Hashed Tokens](https://github.com/vaqqq/harmy/edit/main/README.md#hashed-tokens)
+- [Spotlight](https://github.com/vaqqq/harmy/edit/main/README.md#spotlight-)
 
-
-## Docs
+## API Docs
 Get a user’s Discord presence data.
 
 `GET` - https://api.harmy.gg/user/:user_ID
@@ -58,7 +66,7 @@ The only thing you have to do is to run the `.add <key> <value>` command of our 
 ### How do I access through the API?
 Use your API token as an authentification method to access your custom data.
 
-## Authentification
+## Authorization
 
 ### How do I get my API token?
 Run the `.token` command in our Discord server. You will receive a DM from our Discord bot, including the API Token.
