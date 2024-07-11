@@ -60,7 +60,7 @@ Run the `.token` command in our Discord server. You will receive a DM from our D
 *Note: If you think that your token has been compromised, you can simply just re-run the command for resetting your API token.*
 
 ### Hashed Tokens
-Your API tokens are hashed using a secure hashing algorithm. This means even in the unlikely event of a data breach, your tokens cannot be easily read or misused. - Your data is safe.
+Your API token will be hashed using a secure hashing algorithm. This means even in the unlikely event of a data breach, your tokens cannot be easily read or misused. - Your data is safe.
 
 # Spotlight [![harmy](https://harmy.gg/APISVG.svg)](https://harmy.gg/)
 Here are a few websites that use harmy:
