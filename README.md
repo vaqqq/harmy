@@ -18,6 +18,7 @@ Join our [Discord server](https://discord.gg/asyWxPudkQ) and you are good to go 
 - [Authorization](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#authorization)
     - [Get the API Token](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#get-the-api-token)
     - [Hashed Tokens](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#hashed-tokens)
+    - [Limitations](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#limitations)
 - [Spotlight](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#spotlight-)
 
 ## API Docs
@@ -65,6 +66,12 @@ The only thing you have to do is to run the `.add <key> <value>` command of our 
 
 ### Access through the API
 Use your API token as an authentification method to access your custom data.
+
+### Limitations
+| Property | Max. Characters | Data Type |
+|:--------:|:---------------:|:---------:|
+| Key      | 165             | String    |
+| Value    | 10'000          | String    |
 
 ## Authorization
 
