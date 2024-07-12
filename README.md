@@ -33,15 +33,32 @@ Example response:
         "userId": "470320681905684500",
         "status": "dnd",
         "global_name": "Vaq",
-        "server_name": null,
+        "server_name": null, //Your nick in our Discord server
         "avatar": "5c11d7292c91e510c2b4f07946ea6d72",
-        "spotifyActivity": null
+        "spotifyActivity": {
+            "name": "Spotify",
+            "type": 2,
+            "song": "BMW",
+            "artist": "Pashanim",
+            "applicationId": null,
+            "timestamps": {
+                "start": 1720814201608,
+                "end": 1720814322741
+            },
+            "party": {
+                "id": "spotify:470320681905684500"
+            },
+            "syncId": "56MDdzieU2dTT3YLpCdpcA",
+            "assets": {
+                "largeText": "Himmel über Berlin",
+                "largeImage": "ab67616d0000b273fa2f0c9e719ca71f2686ddf3"
+            },
+            "flags": 48,
+            "createdTimestamp": 1720814203334
+        }
     },
     "KV": {
-        "hi": "no",
-        "another": "one",
-        "hello": "fresh",
-        "idk": "what to say"
+        "First1": "Key/ValuePair0"
     },
     "github": {
         "id": 111227553,
