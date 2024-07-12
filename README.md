@@ -104,13 +104,13 @@ Your API token will be hashed using a secure hashing algorithm. This means even 
 ## Error Codes
 |   Code   |      Name       |     Description     |
 |:--------:|:---------------:|:--------------------|
-| 200      | OK              | HTTP request was successfully handled |
-| 400      | Bad Request     | Cannot or will not process the request due to an apparent client error |
-| 401      | Unauthorized    | Authentication is required and has failed or has not yet been provided |
-| 404      | Not Found       | The requested resource could not be found but may be available in the future |
-| 429      | Rate Limit      |  120 requests/min, 3 requests/s |
-| 500      | Internal Server Error | Given when an unexpected condition was encountered |
-| 504      | Gateway Timeout | Currently caused by the automatic switching of the system to sleep mode after a specific time (fixed soon)|
+| `200`      | OK              | HTTP request was successfully handled |
+| `400`      | Bad Request     | Cannot or will not process the request due to an apparent client error |
+| `401`      | Unauthorized    | Authentication is required and has failed or has not yet been provided |
+| `404`      | Not Found       | The requested resource could not be found but may be available in the future |
+| `429`      | Rate Limit      |  120 requests/min, 3 requests/s |
+| `500`      | Internal Server Error | Given when an unexpected condition was encountered |
+| `504`      | Gateway Timeout | Currently caused by the automatic switching of the system to sleep mode after a specific time (fixed soon)|
 
 ## Spotlight ⭐
 Here are a few websites that use harmy:
