@@ -116,3 +116,6 @@ Your API token will be hashed using a secure hashing algorithm. This means even 
 Here are a few websites that use harmy:
 
 - [harmonybot.ch](https://harmonybot.ch/home)
+
+
+`Created with ❤️`
