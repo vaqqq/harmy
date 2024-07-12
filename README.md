@@ -27,7 +27,7 @@ Get a user’s Discord presence data.
 `GET` - https://api.harmy.gg/user/:user_ID
 
 Example response:
-```json
+```ts
 {
     "presence": {
         "userId": "470320681905684500",
