@@ -112,7 +112,7 @@ Your API token will be hashed using a secure hashing algorithm. This means even 
 | 500      | Internal Server Error | Given when an unexpected condition was encountered |
 | 504      | Gateway Timeout | Currently caused by the automatic switching of the system to sleep mode after a specific time (fixed soon)|
 
-# Spotlight [![harmy](https://harmy.gg/APISVG.svg)](https://harmy.gg/)
+## Spotlight ⭐
 Here are a few websites that use harmy:
 
 - [harmonybot.ch](https://harmonybot.ch/home)
