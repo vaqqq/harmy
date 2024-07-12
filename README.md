@@ -15,10 +15,11 @@ Join our [Discord server](https://discord.gg/asyWxPudkQ) and you are good to go 
         - [What is a K/V system?](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#what-is-a-kv-system)
         - [Create a K/V pair](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#create-a-keyvalue-pair)
         - [Access through the API](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#access-through-the-api)
+        - [Limitations](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#limitations)
 - [Authorization](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#authorization)
     - [Get the API Token](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#get-the-api-token)
     - [Hashed Tokens](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#hashed-tokens)
-    - [Limitations](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#limitations)
+- [Error Codes](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#error-codes)
 - [Spotlight](https://github.com/vaqqq/harmy/tree/main?tab=readme-ov-file#spotlight-)
 
 ## API Docs
@@ -99,6 +100,17 @@ Run the `.token` command in our Discord server. You will receive a DM from our D
 
 ### Hashed Tokens
 Your API token will be hashed using a secure hashing algorithm. This means even in the unlikely event of a data breach, your tokens cannot be easily read or misused. - Your data is safe.
+
+## Error Codes
+|   Code   |      Name       |     Description     |
+|:--------:|:---------------:|:--------------------|
+| 200      | OK              | HTTP request was successfully handled |
+| 400      | Bad Request     | Cannot or will not process the request due to an apparent client error |
+| 401      | Unauthorized    | Authentication is required and has failed or has not yet been provided |
+| 404      | Not Found       | The requested resource could not be found but may be available in the future |
+| 429      | Rate Limit      |  120 requests/min, 3 requests/s |
+| 500      | Internal Server Error | Given when an unexpected condition was encountered |
+| 504      | Gateway Timeout | Currently caused by the automatic switching of the system to sleep mode after a specific time (fixed soon)|
 
 # Spotlight [![harmy](https://harmy.gg/APISVG.svg)](https://harmy.gg/)
 Here are a few websites that use harmy:
